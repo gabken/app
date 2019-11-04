@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>test</servlet-name>
+  	<display-name>test</display-name>
+  	<description></description>
+  	<servlet-class>ken.app.test</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Wechat</servlet-name>
+  	<display-name>Wechat</display-name>
+  	<description></description>
+  	<servlet-class>ken.app.Wechat</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Test</servlet-name>
+  	<display-name>Test</display-name>
+  	<description></description>
+  	<servlet-class>ken.app.Test</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WeChatLogin</servlet-name>
+  	<display-name>WeChatLogin</display-name>
+  	<description></description>
+  	<servlet-class>ken.app.WeChatLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WeChatDecode</servlet-name>
+  	<display-name>WeChatDecode</display-name>
+  	<description></description>
+  	<servlet-class>ken.app.WeChatDecode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>test</servlet-name>
+  	<url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Wechat</servlet-name>
+  	<url-pattern>/Wechat</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Test</servlet-name>
+  	<url-pattern>/Test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WeChatLogin</servlet-name>
+  	<url-pattern>/WeChatLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WeChatDecode</servlet-name>
+  	<url-pattern>/WeChatDecode</url-pattern>
+  </servlet-mapping>
+</web-app>
