@@ -15,6 +15,7 @@ public class Login {
 	@RequestMapping("weChatLogin")
 	@ResponseBody
 	public JSONObject weChatLogin(String code){	
+		System.out.println("aaaa");
 		return weChatLogin.ResolvingWeChatCode(code);
 	}
 	
